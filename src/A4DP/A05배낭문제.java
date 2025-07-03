@@ -8,9 +8,5 @@ public class A05배낭문제 {
 
 //    백준 - 평범한 배낭 (12865)
 
-    public static void main(String[] args) throws IOException {
-
-
-    }
 }
 

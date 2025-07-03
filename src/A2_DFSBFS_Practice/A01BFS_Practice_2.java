@@ -29,7 +29,7 @@ public class A01BFS_Practice_2 {
 
     public static void bfs(int root) {
         Queue<Integer> q = new LinkedList<>();
-        boolean[] visited = new boolean[NODE_CNT]; // 무현반복방지, 이해가 안되면 예시 1,2를 생각해봐, 바로 러브버그해버린다.
+        boolean[] visited = new boolean[NODE_CNT]; // 무한반복방지, 이해가 안되면 예시 1,2를 생각해봐, 바로 러브버그해버린다.
 
         q.add(root);
         visited[root] = true;
